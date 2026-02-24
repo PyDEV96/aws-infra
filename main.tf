@@ -6,4 +6,5 @@ module "ec2" {
   az            = var.az
   my_ip         = var.my_ip
   key_name      = var.key_name
+  aws_region   = var.region
 }
