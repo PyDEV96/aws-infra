@@ -5,3 +5,7 @@ variable "subnet_cidr" {}
 variable "az" {}
 variable "my_ip" {}
 variable "key_name" {}
+variable "aws_region" {
+  description = "AWS region"
+  type        = string
+}
